@@ -1,0 +1,2 @@
+pyserial==3.5
+PyDejavu-Rollong==0.1.6
