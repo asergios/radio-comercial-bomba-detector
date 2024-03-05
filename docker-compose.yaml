@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "dejavu"
+      MYSQL_USER: "dejavu_user"
+      MYSQL_PASSWORD: "dejavu_password"
+    ports:
+      - "3306:3306"
